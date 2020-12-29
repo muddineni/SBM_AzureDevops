@@ -17,6 +17,7 @@
   <properties>
     <talend.project.name>SBM_AZUREDEVOPS</talend.project.name>
     <encoding>UTF-8</encoding>
+      <signer.version>7.1.1</signer.version>
   </properties>
   <build>
     <pluginManagement>
