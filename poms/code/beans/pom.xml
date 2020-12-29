@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.sbm_azuredevops</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.1.1</version>
+    <version>7.3.1</version>
     <relativePath>../../</relativePath>
   </parent>
   <groupId>org.example.sbm_azuredevops.bean</groupId>
   <artifactId>beans</artifactId>
-  <version>7.1.1</version>
+  <version>7.3.1</version>
   <name>SBM_AZUREDEVOPS Beans</name>
   <properties>
     <talend.codes.package>beans</talend.codes.package>
