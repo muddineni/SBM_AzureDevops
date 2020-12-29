@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example.sbm_azuredevops</groupId>
   <artifactId>code.Master</artifactId>
-  <version>7.1.1</version>
+  <version>7.3.1</version>
   <packaging>pom</packaging>
   <name>SBM_AZUREDEVOPS Codes Master</name>
   <url>http://www.talend.org/</url>
@@ -17,7 +17,7 @@
   <properties>
     <talend.project.name>SBM_AZUREDEVOPS</talend.project.name>
     <encoding>UTF-8</encoding>
-      <signer.version>7.1.1</signer.version>
+      <signer.version>7.3.1</signer.version>
   </properties>
   <build>
     <pluginManagement>
