@@ -8,6 +8,16 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+- task: InvokeRESTAPI@1
+  inputs:
+    connectionType: 'connectedServiceName'
+    method: 'GET'
+    headers: |
+      {
+      "Content-Type":"application/json"
+      }
+    urlSuffix: 'http://worldclockapi.com/api/json/est/now'
+    waitForCompletion: 'false'
 
 steps:
 - task: Maven@3
