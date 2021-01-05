@@ -4,7 +4,9 @@ pool: server
 steps:
 - task: InvokeRESTAPI@1
   inputs:
-    connectionType: 'connectedServiceName'
+    connectionType: 'connectedServiceName
+    serviceConnection: 'myconnection'
+
     method: 'GET'
     headers: |
       {
