@@ -1,7 +1,6 @@
 trigger:
 - main
-pool:
-  name: 'CTSLAPTOP'
+pool: server
 steps:
 - task: InvokeRESTAPI@1
   inputs:
